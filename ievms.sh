@@ -21,7 +21,7 @@ reuse_xp=${REUSE_XP:-"yes"}
 reuse_win7=${REUSE_WIN7:-"yes"}
 
 # Timeout interval to wait between checks for various states.
-sleep_wait="5"
+sleep_wait="120"
 
 # Store the original `cwd`.
 orig_cwd=`pwd`
